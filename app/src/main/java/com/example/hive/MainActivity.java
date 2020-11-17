@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.hive.admin.AdminJoinActivity;
+import com.example.hive.admin.AdminJoin;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent adminpage = new Intent(MainActivity.this, AdminJoinActivity.class);
+                Intent adminpage = new Intent(MainActivity.this, AdminJoin.class);
                 startActivity(adminpage);
             }
         });

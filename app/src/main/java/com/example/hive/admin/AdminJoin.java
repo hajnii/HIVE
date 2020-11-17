@@ -2,6 +2,7 @@ package com.example.hive.admin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -13,7 +14,7 @@ import android.widget.Spinner;
 
 import com.example.hive.R;
 
-public class AdminJoinActivity extends AppCompatActivity {
+public class AdminJoin extends AppCompatActivity {
 
     EditText adminJoinEmail;
     Button btnCertified;
@@ -62,6 +63,15 @@ public class AdminJoinActivity extends AppCompatActivity {
 
             }
         });
+
+        btnCertified.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
+
 
 
     }
